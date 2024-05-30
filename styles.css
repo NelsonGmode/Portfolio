@@ -110,3 +110,49 @@ section h2 {
 #contact-form button:hover {
     background-color: #005f73;
 }
+
+#about {
+    text-align: center;
+}
+
+#about img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.about-content {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.about-content h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-content ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    margin: 0;
+    color: #005f73;
+}
+
+.experience p {
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.experience ul {
+    list-style: square;
+    margin-left: 20px;
+}
