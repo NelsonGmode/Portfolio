@@ -35,43 +35,78 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('images/hero-background.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#hero p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #008CBA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #005f73;
+}
+
 section {
     margin-bottom: 20px;
 }
 
-section h1 {
+section h2 {
     text-align: center;
 }
 
-#about img, #images img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+#contact {
+    margin-top: 50px;
 }
 
-#projects .project {
-    margin-bottom: 20px;
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form label {
+    font-weight: bold;
+}
+
+#contact-form input, #contact-form textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-#projects .project h2 {
-    margin: 0;
-    font-size: 1.5em;
+#contact-form button {
+    padding: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-#projects .project p {
-    margin: 10px 0 0;
-}
-
-#projects .project a {
-    color: #008CBA;
-    text-decoration: none;
-}
-
-#projects .project a:hover {
-    text-decoration: underline;
+#contact-form button:hover {
+    background-color: #005f73;
 }
