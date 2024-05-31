@@ -1,3 +1,5 @@
+/* Existing styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -35,6 +37,7 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Hero Section */
 #hero {
     text-align: center;
     padding: 50px 20px;
@@ -67,16 +70,87 @@ main {
     background-color: #005f73;
 }
 
-section {
-    margin-bottom: 20px;
+/* Introduction Section */
+#introduction {
+    text-align: center;
+    padding: 20px 0;
 }
 
-section h2 {
+#introduction h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#introduction p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Skills Section */
+#skills {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    background: #eee;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Recent Projects Section */
+#recent-projects {
+    padding: 20px 0;
+}
+
+#recent-projects .project {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#recent-projects h3 {
+    margin-top: 0;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 20px 0;
     text-align: center;
 }
 
+#testimonials blockquote {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#testimonials blockquote p {
+    margin: 0;
+    font-style: italic;
+}
+
+#testimonials cite {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Contact Form */
 #contact {
-    margin-top: 50px;
+    padding: 20px 0;
 }
 
 #contact-form {
@@ -111,48 +185,24 @@ section h2 {
     background-color: #005f73;
 }
 
-#about {
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
     text-align: center;
+    padding: 10px 0;
 }
 
-#about img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+footer .social-media {
+    margin: 10px 0;
 }
 
-.about-content {
-    text-align: left;
-    margin-top: 20px;
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
 }
 
-.about-content h2 {
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.about-content ul {
-    list-style: disc;
-    margin-left: 20px;
-}
-
-.experience {
-    margin-bottom: 20px;
-}
-
-.experience h3 {
-    margin: 0;
-    color: #005f73;
-}
-
-.experience p {
-    margin: 5px 0;
-    font-style: italic;
-}
-
-.experience ul {
-    list-style: square;
-    margin-left: 20px;
+footer .social-media a:hover {
+    text-decoration: underline;
 }
